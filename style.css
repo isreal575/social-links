@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "DM sans",sans-serif;
+
+
+}
+body{
+	background: black;
+	padding-top: 70px;
+
+}
+.parent{
+	display: flex;
+	justify-content: center;
+}
+.social-links-profile-div{
+	background: black;
+	width: 300px;
+	height: 500px;
+	border-radius: 15px;
+	color: white;
+	box-shadow: 1px 1px 13px 1px grey;
+
+}
+h2{
+	text-align: center;
+	padding-top: 20px;
+
+}
+h3{
+	text-align: center;
+}
+h4{
+	text-align: center;
+}
+.Facebook{
+	background: blue;
+	border-radius: 20px;
+	height: 50px;
+	width: 200px;
+	cursor: pointer;
+	border: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+	
+}
+.instagram{
+	background: pink;
+	border-radius: 20px;
+	height: 50px;
+	width: 200px;
+	display: block;
+	border: none;
+	cursor: pointer;
+}
+.whatsapp{
+	background: green;
+	border-radius: 20px;
+	height: 50px;
+	width: 200px;
+	border: none;
+	cursor: pointer;
+	
+}
+.link-parent-div{
+	display: grid;
+	justify-content: center;
+	gap: 20px;
+	padding-top: 50px;
+	
+}
+p{
+	text-align: center;
+	font-size: 15px;
+	text-transform: capitalize;
+	padding-top: 20px;
+}
+a:hover{
+	color: red;
+}
+input{
+	width: 140px;
+	height: 50px;
+	border: none;
+	border-radius: 14px;
+	color: grey;
+	text-align: center;
+}
+.btn{
+	width: 100px;
+	height: 50px;
+	background: green;
+	color: white;
+	cursor: pointer;
+	border: none;
+	border-radius: 10px;
+}
+
+form{
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	padding-top: 20px;
+}
+
+/*@media (max-width:400px) {
+    body{
+    	background: blue;
+    }
+ 
+}
+@media (max-height:700px) {
+
+}*/
